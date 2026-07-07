@@ -1,0 +1,66 @@
+{
+  "profile": {
+    "name": "Neev Shah",
+    "birthday": "28/05/2013",
+    "birthdayMonth": 5,
+    "birthdayDay": 28,
+    "age": 14,
+    "favouriteColour": "Light blue",
+    "favouriteFood": "Pizza and pasta",
+    "favouriteGames": ["FC", "Rocket League"],
+    "favouriteArtist": "Central Cee",
+    "robloxUsername": "Bl0xFruits1239",
+    "about": "Neev Shah is a 14-year-old who plays Division 1 soccer and is built different on the pitch. When he's not playing soccer, he's usually on his PS5 playing Rocket League or FC."
+  },
+  "bot": {
+    "fallback": "I'm just Neev's website bot, so I only know the main facts for now.",
+    "greeting": "Ask me about Neev's birthday, age, games, Roblox username, favourite food, favourite colour, favourite artist, or who Neev is.",
+    "answers": [
+      {
+        "intent": "birthday",
+        "keywords": ["birthday", "born", "birth date", "bday", "date of birth"],
+        "answer": "Neev's birthday is 28 May 2013."
+      },
+      {
+        "intent": "age",
+        "keywords": ["age", "old", "how many years"],
+        "answer": "Neev is 14."
+      },
+      {
+        "intent": "games",
+        "keywords": ["game", "games", "play", "ps5", "rocket", "league", "fc", "fifa"],
+        "answer": "Neev's favourite games are FC and Rocket League."
+      },
+      {
+        "intent": "roblox",
+        "keywords": ["roblox", "username", "user", "blox"],
+        "answer": "Neev's Roblox username is Bl0xFruits1239."
+      },
+      {
+        "intent": "food",
+        "keywords": ["food", "eat", "meal", "pizza", "pasta", "favourite food", "favorite food"],
+        "answer": "Neev's favourite food is pizza and pasta."
+      },
+      {
+        "intent": "colour",
+        "keywords": ["colour", "color", "light blue", "blue", "favourite colour", "favorite color"],
+        "answer": "Neev's favourite colour is light blue."
+      },
+      {
+        "intent": "artist",
+        "keywords": ["artist", "music", "singer", "rapper", "central cee"],
+        "answer": "Neev's favourite artist is Central Cee."
+      },
+      {
+        "intent": "who",
+        "keywords": ["who", "about", "neev", "soccer", "football", "division"],
+        "answer": "Neev Shah is a 14-year-old Division 1 soccer player who is built different on the pitch and loves playing FC and Rocket League on PS5."
+      }
+    ]
+  },
+  "secret": {
+    "accessCode": "2517",
+    "specialNames": ["Sahaan", "Neev", "Ranvir", "Jaxon"],
+    "blockedWords": ["badword", "stupid", "idiot", "hate", "kill", "dumb", "ugly"]
+  }
+}
